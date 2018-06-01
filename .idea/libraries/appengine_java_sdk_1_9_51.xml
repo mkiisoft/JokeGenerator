@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="appengine-java-sdk-1.9.51">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.appengine/appengine-java-sdk/1.9.51/e58c89578f5cc2106d944a77b84f31bfd170af6f/appengine-java-sdk-1.9.51.zip!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
