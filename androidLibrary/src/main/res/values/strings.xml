@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">AndroidLibrary</string>
+    <string name="color_item">Color Item</string>
+    <string name="share_joke">We need your permission to share this joke</string>
+    <string name="permission_ok">OK</string>
+    <string name="permission_cancel" tools:ignore="ButtonCase">CANCEL</string>
+    <string name="share_icon">SHARE ICON</string>
+    <string name="share_joke_title">Share Joke</string>
+    <string name="property_background">backgroundColor</string>
+</resources>

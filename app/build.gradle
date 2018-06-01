@@ -1,0 +1,82 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.cloud.tools.endpoints-framework-client'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'mkiisoft'
+            keyPassword '123456789'
+            storeFile file("$rootDir/mkiisoft.jks")
+            storePassword '123456789'
+        }
+    }
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.com.mkiisoft.builditbigger"
+        minSdkVersion 22
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        buildConfigField "String", "AD_KEY", "\"ca-app-pub-7149053980522998~9073987625\""
+    }
+    buildTypes {
+
+        debug {
+            minifyEnabled false
+        }
+
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    productFlavors {
+        paidFlavor {
+            applicationId 'com.com.mkiisoft.builditbigger.paid'
+            resValue("string", "title", "Jokes -Premium-")
+        }
+        freeFlavor {
+            applicationId 'com.com.mkiisoft.builditbigger.free'
+            resValue("string", "title", "Jokes -Free-")
+            resValue("string", "AD_TEST_KEY", "ca-app-pub-3940256099942544/1033173712")
+        }
+    }
+    flavorDimensions "default"
+
+    buildToolsVersion '27.0.3'
+}
+
+dependencies {
+    implementation project(':javaLibrary')
+    implementation project(':androidLibrary')
+    endpointsServer project(path: ':backend', configuration: 'endpoints')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+
+    implementation 'com.google.api-client:google-api-client:+'
+    implementation 'com.google.http-client:google-http-client-android:1.22.0'
+    freeFlavorImplementation 'com.google.android.gms:play-services-ads:15.0.1'
+
+    implementation 'com.google.code.findbugs:jsr305:3.0.1'
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.hamcrest:hamcrest-library:1.3'
+
+    androidTestImplementation('com.android.support.test:runner:0.5') {
+        exclude module: 'support-annotations'
+    }
+    androidTestImplementation('com.android.support.test:rules:0.5') {
+        exclude module: 'support-annotations'
+    }
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2') {
+        exclude module: 'support-annotations'
+    }
+}
