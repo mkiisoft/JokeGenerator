@@ -2,6 +2,10 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.google.cloud.tools.endpoints-framework-client'
 
 android {
+
+    lintOptions {
+        checkReleaseBuilds false
+    }
     signingConfigs {
         config {
             keyAlias 'mkiisoft'
