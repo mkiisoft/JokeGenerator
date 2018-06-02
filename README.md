@@ -11,6 +11,8 @@ Material Design from Android 5.1+ (API 22+)
 _______________
 [![Android 5.1+ v1.0b](https://i.imgur.com/sBm241c.png)](https://github.com/mkiisoft/JokeGenerator/raw/master/paidFlavor/release/app-paidFlavor-release.apk "Joke Generator APK")
 
+[![Android 5.1+ v1.0b With AdMob](https://i.imgur.com/AhJUnUZ.png)](https://github.com/mkiisoft/JokeGenerator/raw/master/paidFlavor/release/app-paidFlavor-release.apk "Joke Generator APK With AdMob")
+
 # Install
 _______________
 
