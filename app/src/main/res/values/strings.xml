@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BuildItBigger</string>
+    <string name="app_name">Joke Generator</string>
     <string name="tell_me_a_joke">TELL ME A JOKE!</string>
     <string name="getting_joke">Getting Joke</string>
     <string name="error_joke">Error getting joke. Please, try again.</string>
