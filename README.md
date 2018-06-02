@@ -37,6 +37,7 @@ _______________
 * Dagger2
 * Retrofit2
 * ButterKnife
+* Easy User Permissions
 * Circular reveal animation
 * Unit Test
 * Joke API
