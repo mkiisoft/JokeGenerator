@@ -28,8 +28,8 @@ _______________
 # Features:
 _______________
 
+* Material Design
 * Floatin Action Button
-* Material Design Colors
 * RxJava
   * RxAndroid
 * AutoValue
