@@ -36,6 +36,7 @@ _______________
   * RxAndroid
 * AutoValue
 * Gson
+* Java 8
 * Dagger2
 * Retrofit2
 * ButterKnife
