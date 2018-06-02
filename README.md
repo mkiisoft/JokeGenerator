@@ -27,7 +27,7 @@ _______________
 
 - Clean Architecture
 
-# Features:
+# Features
 _______________
 
 * Material Design
