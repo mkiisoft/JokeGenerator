@@ -30,7 +30,7 @@ _______________
 _______________
 
 * Material Design
-* Floatin Action Button
+* Floating Action Button
 * RxJava
   * RxAndroid
 * AutoValue
