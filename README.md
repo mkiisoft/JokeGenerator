@@ -1,4 +1,5 @@
 # Joke Generator - Material Design App
+_______________
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/mkiisoft/JokeGenerator) [![GitHub version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.0b&x2=0)](https://github.com/mkiisoft/JokeGenerator) [![Android](https://img.shields.io/badge/language-Android-blue.svg)](https://github.com/mkiisoft/JokeGenerator) ![API](https://img.shields.io/badge/API-22%2B-brightgreen.svg?style=flat)
 
 Open Source project for the community. First version have no/little inner documentation. DOC's will be available soon.
@@ -11,18 +12,21 @@ _______________
 [![Android 5.1+ v1.0b](https://i.imgur.com/sBm241c.png)](https://play.google.com/store/apps/details?id=com.mkiisoft.uiweather "UIWeather Play Store")
 
 # Install
+_______________
 
 ## Android Studio:
 
 Import project as issual with any other Android Studio project. This project doesn't include any .jar dependencies.
 
 # Changelog
+_______________
 
 - Beta update v1.0b
 
 - Clean Architecture
 
 # Features:
+_______________
 
 * Floatin Action Button
 * Material Design Colors
