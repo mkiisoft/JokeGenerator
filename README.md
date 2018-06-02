@@ -37,6 +37,7 @@ _______________
 * Dagger2
 * Retrofit2
 * ButterKnife
+* App Flavors
 * Easy User Permissions
 * Circular reveal animation
 * Unit Test
