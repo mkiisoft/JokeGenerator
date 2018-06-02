@@ -8,7 +8,8 @@ Material Design from Android 5.1+ (API 22+)
 
 # Download
 
-Now available: [Android 5.1+ v1.0b](http://bit.ly/1QOy3av)
+Now available:
+[![Android 5.1+ v1.0b](https://i.imgur.com/sBm241c.png)](https://play.google.com/store/apps/details?id=com.mkiisoft.uiweather "UIWeather Play Store")
 
 # Install
 
