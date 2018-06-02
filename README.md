@@ -6,9 +6,7 @@ Material Design from Android 5.1+ (API 22+)
 
 [![Joke Generator](https://i.imgur.com/E1D8etz.png)](https://github.com/mkiisoft/JokeGenerator "Joke Generator") [![Joke Generator](https://i.imgur.com/orGS2ap.png)](https://github.com/mkiisoft/JokeGenerator "Joke Generator")
 
-# Download
-
-Now available:
+# Download - Now available
 _______________
 [![Android 5.1+ v1.0b](https://i.imgur.com/sBm241c.png)](https://play.google.com/store/apps/details?id=com.mkiisoft.uiweather "UIWeather Play Store")
 
