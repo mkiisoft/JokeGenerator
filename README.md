@@ -4,7 +4,7 @@
 Open Source project for the community. First version have no/little inner documentation. DOC's will be available soon.
 Material Design from Android 5.1+ (API 22+)
 
-[![Joke Generator](https://i.imgur.com/E1D8etz.png)](https://github.com/mkiisoft/JokeGenerator/edit/master/README.md "Joke Generator")
+[![Joke Generator](https://i.imgur.com/E1D8etz.png)](https://github.com/mkiisoft/JokeGenerator "Joke Generator") [![Joke Generator](https://i.imgur.com/orGS2ap.png)](https://github.com/mkiisoft/JokeGenerator "Joke Generator")
 
 # Download
 
