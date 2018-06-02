@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
@@ -85,11 +86,11 @@
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
         android:layout_marginEnd="17dp"
+        android:alpha="0"
+        android:contentDescription="@string/circle_reveal"
         android:elevation="20dp"
         android:src="@drawable/intro_circle"
         android:tint="@color/deep_blue"
-        android:visibility="gone"
-        android:alpha="0"
-        android:contentDescription="@string/circle_reveal" />
+        android:visibility="gone" />
 
 </RelativeLayout>

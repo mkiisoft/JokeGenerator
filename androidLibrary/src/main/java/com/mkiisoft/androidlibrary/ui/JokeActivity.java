@@ -1,4 +1,4 @@
-package com.mkiisoft.androidlibrary;
+package com.mkiisoft.androidlibrary.ui;
 
 import android.Manifest;
 import android.graphics.Color;
@@ -11,6 +11,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
+import com.mkiisoft.androidlibrary.R;
 import com.mkiisoft.androidlibrary.adapter.ColorAdapter;
 import com.mkiisoft.androidlibrary.model.ColorModel;
 import com.mkiisoft.androidlibrary.utils.Colors;
@@ -49,6 +50,7 @@ public class JokeActivity extends AppCompatActivity implements ColorAdapter.Clic
         colors.add(new ColorModel(Color.parseColor(Colors.AMBER), Color.BLACK));
         colors.add(new ColorModel(Color.parseColor(Colors.CYAN), Color.WHITE));
         colors.add(new ColorModel(Color.parseColor(Colors.YELLOW), Color.BLACK));
+        colors.add(new ColorModel(Color.parseColor(Colors.PURPLE), Color.WHITE));
     }
 
     private View rootView;

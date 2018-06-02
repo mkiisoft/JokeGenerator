@@ -5,7 +5,7 @@
 
     <application android:label="@string/app_name">
         <activity
-            android:name=".JokeActivity"
+            android:name=".ui.JokeActivity"
             android:launchMode="singleTop"
             android:theme="@style/LibraryTheme"/>
     </application>

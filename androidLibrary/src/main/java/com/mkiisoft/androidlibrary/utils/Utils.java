@@ -60,7 +60,7 @@ public class Utils {
 
         String path = MediaStore.Images.Media.insertImage(context.getContentResolver(),
                 image,
-                "" + System.currentTimeMillis(),
+                String.valueOf(System.currentTimeMillis()),
                 null);
         return Uri.parse(path);
     }

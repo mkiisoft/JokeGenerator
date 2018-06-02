@@ -18,7 +18,6 @@ public class SquareView extends FrameLayout {
         super(context, attrs, defStyleAttr);
     }
 
-    @SuppressWarnings("unnchecked")
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);

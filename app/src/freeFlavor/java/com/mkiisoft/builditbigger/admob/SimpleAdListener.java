@@ -1,4 +1,4 @@
-package com.mkiisoft.builditbigger;
+package com.mkiisoft.builditbigger.admob;
 
 import com.google.android.gms.ads.AdListener;
 
@@ -6,7 +6,7 @@ public class SimpleAdListener extends AdListener {
 
     private AdMobListener listener;
 
-    SimpleAdListener(AdMobListener listener) {
+    public SimpleAdListener(AdMobListener listener) {
         this.listener = listener;
     }
 

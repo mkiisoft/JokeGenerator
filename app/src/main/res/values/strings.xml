@@ -3,8 +3,9 @@
     <string name="tell_me_a_joke">TELL ME A JOKE!</string>
     <string name="getting_joke">Getting Joke</string>
     <string name="error_joke">Error getting joke. Please, try again.</string>
-    <string name="joke_store">JOKE\nSTORE</string>
+    <string name="joke_store">JOKE\nGENERATOR</string>
     <string name="button_go">GO</string>
     <string name="circle_background">CIRCLE BACKGROUND</string>
     <string name="circle_reveal">CIRCLE REVEAL</string>
+    <string name="joke_format">%1$s\n%2$s</string>
 </resources>

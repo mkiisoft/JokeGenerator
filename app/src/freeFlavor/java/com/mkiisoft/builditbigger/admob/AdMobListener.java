@@ -1,4 +1,4 @@
-package com.mkiisoft.builditbigger;
+package com.mkiisoft.builditbigger.admob;
 
 public interface AdMobListener {
     void onFailedToLoad(int i);

@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@android:color/white"
     android:orientation="vertical"
-    tools:context=".JokeActivity">
+    tools:context=".ui.JokeActivity">
 
     <com.mkiisoft.androidlibrary.utils.SquareView
         android:id="@+id/background_square"

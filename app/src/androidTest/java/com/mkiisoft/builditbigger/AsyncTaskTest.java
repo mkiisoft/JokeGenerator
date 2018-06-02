@@ -11,6 +11,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import com.mkiisoft.builditbigger.data.JokeAsyncTask;
+import com.mkiisoft.builditbigger.ui.MainActivity;
 
 @RunWith(AndroidJUnit4.class)
 public class AsyncTaskTest {
