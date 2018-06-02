@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 
 import com.com.mkiisoft.builditbigger.R;
-import com.mkiisoft.androidlibrary.JokeActivity;
+import com.mkiisoft.androidlibrary.ui.JokeActivity;
 import com.mkiisoft.builditbigger.injection.MainActivityModule;
 import com.mkiisoft.builditbigger.injection.MainActivityView;
 import com.mkiisoft.builditbigger.application.MainApplication;

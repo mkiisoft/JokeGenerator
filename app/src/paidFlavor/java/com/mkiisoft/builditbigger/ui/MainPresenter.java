@@ -24,16 +24,16 @@ public class MainPresenter extends BaseActivityPresenter<MainActivityView> imple
 
     @Override
     public void loading() {
-        fragmentView.showLoading();
+        activityView.showLoading();
     }
 
     @Override
     public void finish(Joke joke) {
-        fragmentView.showResult(joke);
+        activityView.showResult(joke);
     }
 
     @Override
     public void error() {
-        fragmentView.showError();
+        activityView.showError();
     }
 }
