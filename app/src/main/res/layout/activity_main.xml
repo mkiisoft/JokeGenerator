@@ -28,7 +28,7 @@
         android:alpha="0.6"
         android:text="@string/joke_store"
         android:textColor="@android:color/black"
-        android:textSize="30sp"
+        android:textSize="30dp"
         android:textStyle="bold"
         tools:ignore="RelativeOverlap" />
 
@@ -52,7 +52,7 @@
         android:padding="15dp"
         android:text="@string/tell_me_a_joke"
         android:textColor="@android:color/white"
-        android:textSize="18sp"
+        android:textSize="18dp"
         android:textStyle="bold" />
 
     <FrameLayout

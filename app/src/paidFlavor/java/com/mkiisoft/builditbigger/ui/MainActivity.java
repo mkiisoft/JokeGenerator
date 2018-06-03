@@ -70,14 +70,7 @@ public class MainActivity extends BaseActivity<MainPresenter> implements MainAct
 
     @Override
     public void showResult(Joke joke) {
-        if (dialog != null) {
-            dialog.dismiss();
-        }
-        if (reveal != null) {
-            reveal.animate().scaleX(1).scaleY(1).alpha(0).setDuration(10)
-                    .setStartDelay(500)
-                    .withEndAction(() -> reveal.setVisibility(View.GONE));
-        }
+        hideAnimation();
 
         startActivity(new Intent(MainActivity.this, JokeActivity.class)
                 .putExtra(JOKE_EXTRA, String.format(getString(R.string.joke_format), joke.setup(), joke.punchline())));
@@ -86,11 +79,23 @@ public class MainActivity extends BaseActivity<MainPresenter> implements MainAct
 
     @Override
     public void showError() {
+        hideAnimation();
         Snackbar.make(rootView, R.string.error_joke, Snackbar.LENGTH_LONG).show();
     }
 
     @Override
     public Activity getActivity() {
         return this;
+    }
+
+    private void hideAnimation() {
+        if (dialog != null) {
+            dialog.dismiss();
+        }
+        if (reveal != null) {
+            reveal.animate().scaleX(1).scaleY(1).alpha(0).setDuration(10)
+                    .setStartDelay(500)
+                    .withEndAction(() -> reveal.setVisibility(View.GONE));
+        }
     }
 }
