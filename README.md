@@ -5,8 +5,8 @@ _______________
 Open Source project for the community. First version have no/little inner documentation. DOC's will be available soon.
 Material Design from Android 5.1+ (API 22+)
 
-[![Joke Generator](https://i.imgur.com/V4sCiZy.png)](https://github.com/mkiisoft/JokeGenerator/raw/master/paidFlavor/release/app-paidFlavor-release.apk "Joke Generator")
-[![Joke Generator](https://i.imgur.com/aNpJyqy.png)](https://github.com/mkiisoft/JokeGenerator/raw/master/paidFlavor/release/app-paidFlavor-release.apk "Joke Generator")
+[![Joke Generator](https://i.imgur.com/J8YgPHc.png)](https://github.com/mkiisoft/JokeGenerator/raw/master/paidFlavor/release/app-paidFlavor-release.apk "Joke Generator")
+[![Joke Generator](https://i.imgur.com/9rLU0eJ.png)](https://github.com/mkiisoft/JokeGenerator/raw/master/paidFlavor/release/app-paidFlavor-release.apk "Joke Generator")
 
 # Download - Now available
 _______________
