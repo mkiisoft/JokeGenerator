@@ -5,12 +5,12 @@ _______________
 Open Source project for the community. First version have no/little inner documentation. DOC's will be available soon.
 Material Design from Android 5.1+ (API 22+)
 
-[![Download Joke Generator](https://i.imgur.com/J8YgPHc.png)](https://github.com/mkiisoft/JokeGenerator/raw/master/paidFlavor/release/app-paidFlavor-release.apk "Joke Generator")
-[![Download Joke Generator](https://i.imgur.com/9rLU0eJ.png)](https://github.com/mkiisoft/JokeGenerator/raw/master/paidFlavor/release/app-paidFlavor-release.apk "Joke Generator")
+[![Download Joke Generator](https://i.imgur.com/J8YgPHc.png)](https://github.com/mkiisoft/JokeGenerator/raw/master/paidFlavor/release/app-paidFlavor-release.apk "Download Joke Generator")
+[![Download Joke Generator](https://i.imgur.com/9rLU0eJ.png)](https://github.com/mkiisoft/JokeGenerator/raw/master/paidFlavor/release/app-paidFlavor-release.apk "Download Joke Generator")
 
 # Download - Now available
 _______________
-[![Android 5.1+ v1.0b](https://i.imgur.com/sBm241c.png)](https://github.com/mkiisoft/JokeGenerator/raw/master/paidFlavor/release/app-paidFlavor-release.apk "Joke Generator APK")     [![Android 5.1+ v1.0b with AdMob](https://i.imgur.com/AhJUnUZ.png)](https://github.com/mkiisoft/JokeGenerator/raw/master/freeFlavor/release/app-freeFlavor-release.apk "Joke Generator APK With AdMob")
+[![Android 5.1+ v1.0b](https://i.imgur.com/sBm241c.png)](https://github.com/mkiisoft/JokeGenerator/raw/master/paidFlavor/release/app-paidFlavor-release.apk "Joke Generator APK")     [![Android 5.1+ v1.0b with AdMob](https://i.imgur.com/AhJUnUZ.png)](https://github.com/mkiisoft/JokeGenerator/raw/master/freeFlavor/release/app-freeFlavor-release.apk "Joke Generator APK with AdMob")
 
 # Install
 _______________
