@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
-    tools:context="com.mkiisoft.builditbigger.data.JokeAsyncTask">
+    android:fitsSystemWindows="true"
+    tools:context="com.mkiisoft.builditbigger.ui.MainActivity">
 
     <ImageView
         android:layout_width="match_parent"
