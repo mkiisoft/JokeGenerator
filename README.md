@@ -5,8 +5,8 @@ _______________
 Open Source project for the community. First version have no/little inner documentation. DOC's will be available soon.
 Material Design from Android 5.1+ (API 22+)
 
-[![Joke Generator](https://i.imgur.com/V4sCiZy.png)](https://github.com/mkiisoft/JokeGenerator/raw/master/paidFlavor/release/app-paidFlavor-release.apk "Joke Generator")
-[![Joke Generator](https://i.imgur.com/aNpJyqy.png)](https://github.com/mkiisoft/JokeGenerator/raw/master/paidFlavor/release/app-paidFlavor-release.apk "Joke Generator")
+[![Joke Generator](https://i.imgur.com/J8YgPHc.png)](https://github.com/mkiisoft/JokeGenerator/raw/master/paidFlavor/release/app-paidFlavor-release.apk "Joke Generator")
+[![Joke Generator](https://i.imgur.com/9rLU0eJ.png)](https://github.com/mkiisoft/JokeGenerator/raw/master/paidFlavor/release/app-paidFlavor-release.apk "Joke Generator")
 
 # Download - Now available
 _______________
@@ -47,21 +47,4 @@ _______________
 * Unit Test
 * Joke API
 
-License
---------
-
-    © 2018 Mariano Zorrilla
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
-    
-
+# © 2018 Mariano Zorrilla
