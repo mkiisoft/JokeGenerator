@@ -19,8 +19,8 @@ android {
         applicationId "com.com.mkiisoft.builditbigger"
         minSdkVersion 22
         targetSdkVersion 27
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.0b"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         buildConfigField "String", "AD_KEY", "\"ca-app-pub-7149053980522998~9073987625\""
