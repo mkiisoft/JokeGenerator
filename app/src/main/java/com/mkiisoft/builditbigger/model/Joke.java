@@ -8,6 +8,11 @@ import com.google.gson.annotations.SerializedName;
 @AutoValue
 public abstract class Joke {
 
+    private static final int DEFAULT_ID = 0;
+    private static final String DEFAULT_TYPE = "joke";
+    private static final String DEFAULT_SETUP = "init";
+    private static final String DEFAULT_PUNCHLINE = "final";
+
     @SerializedName("id")
     public abstract int id();
     @SerializedName("type")
@@ -22,11 +27,20 @@ public abstract class Joke {
     }
 
     @AutoValue.Builder
-    abstract static class Builder {
-        abstract Builder id (int id);
-        abstract Builder type(String type);
-        abstract Builder setup(String setup);
-        abstract Builder punchline(String punchline);
-        abstract Joke build();
+    public abstract static class Builder {
+        public abstract Builder id (int id);
+        public abstract Builder type(String type);
+        public abstract Builder setup(String setup);
+        public abstract Builder punchline(String punchline);
+        public abstract Joke build();
+    }
+
+    @SuppressWarnings("unused")
+    public static Builder builder() {
+        return new AutoValue_Joke.Builder()
+                .id(DEFAULT_ID)
+                .type(DEFAULT_TYPE)
+                .setup(DEFAULT_SETUP)
+                .punchline(DEFAULT_PUNCHLINE);
     }
 }

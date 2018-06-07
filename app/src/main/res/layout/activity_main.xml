@@ -1,97 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/root_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
-    android:fitsSystemWindows="true"
-    tools:context="com.mkiisoft.builditbigger.ui.MainActivity">
+    android:fitsSystemWindows="true">
 
-    <ImageView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="-150dp"
-        android:layout_marginEnd="45dp"
-        android:layout_marginStart="-200dp"
-        android:layout_marginTop="-150dp"
-        android:contentDescription="@string/circle_background"
-        android:scaleType="fitXY"
-        android:src="@drawable/intro_circle" />
+        android:background="@android:color/white"
+        tools:context="com.mkiisoft.builditbigger.ui.MainActivity">
 
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:alpha="0.6"
-        android:text="@string/joke_store"
-        android:textColor="@android:color/black"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        tools:ignore="RelativeOverlap" />
-
-    <View
-        android:layout_width="10dp"
-        android:layout_height="10dp"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="5dp"
-        android:background="@drawable/intro_circle"
-        android:backgroundTint="@color/deep_green" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_centerVertical="true"
-        android:layout_marginEnd="15dp"
-        android:layout_marginStart="20dp"
-        android:layout_toStartOf="@id/joke_button"
-        android:background="@drawable/box_shape"
-        android:gravity="center_vertical"
-        android:padding="15dp"
-        android:text="@string/tell_me_a_joke"
-        android:textColor="@android:color/white"
-        android:textSize="18dp"
-        android:textStyle="bold" />
-
-    <FrameLayout
-        android:id="@+id/joke_button"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        android:layout_marginEnd="10dp">
-
-        <android.support.design.widget.FloatingActionButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            app:backgroundTint="@color/deep_blue"
-            app:fabSize="normal" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="-150dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginStart="-200dp"
+            android:layout_marginTop="-150dp"
+            android:contentDescription="@string/circle_background"
+            android:scaleType="fitXY"
+            android:src="@drawable/intro_circle" />
 
         <TextView
+            android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:elevation="16dp"
-            android:text="@string/button_go"
+            android:layout_margin="15dp"
+            android:alpha="0.6"
+            android:text="@string/joke_store"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            tools:ignore="RelativeOverlap" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/intro_circle"
+            android:backgroundTint="@color/deep_green" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_toStartOf="@id/joke_button"
+            android:background="@drawable/box_shape"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:text="@string/tell_me_a_joke"
             android:textColor="@android:color/white"
+            android:textSize="18dp"
             android:textStyle="bold" />
-    </FrameLayout>
 
-    <ImageView
-        android:id="@+id/circle_reveal"
-        android:layout_width="56dp"
-        android:layout_height="56dp"
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        android:layout_marginEnd="17dp"
-        android:alpha="0"
-        android:contentDescription="@string/circle_reveal"
-        android:elevation="20dp"
-        android:src="@drawable/intro_circle"
-        android:tint="@color/deep_blue"
-        android:visibility="gone" />
+        <FrameLayout
+            android:id="@+id/joke_button"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp">
 
-</RelativeLayout>
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:backgroundTint="@color/deep_blue"
+                app:fabSize="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:elevation="16dp"
+                android:text="@string/button_go"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/circle_reveal"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="17dp"
+            android:alpha="0"
+            android:contentDescription="@string/circle_reveal"
+            android:elevation="20dp"
+            android:src="@drawable/intro_circle"
+            android:tint="@color/deep_blue"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

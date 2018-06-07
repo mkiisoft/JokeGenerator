@@ -4,6 +4,7 @@ import android.animation.ArgbEvaluator;
 import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.content.Intent;
+import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -16,6 +17,7 @@ import android.view.View;
 import com.mkiisoft.androidlibrary.R;
 
 import java.io.ByteArrayOutputStream;
+import java.io.File;
 
 public class Utils {
 
@@ -65,24 +67,26 @@ public class Utils {
         return Uri.parse(path);
     }
 
-//    private static String imageRealPath(Context context, Uri uri) {
-//        Cursor cursor = null;
-//        try {
-//            String[] projection = { MediaStore.Images.Media.DATA };
-//            cursor = context.getContentResolver().query(uri, projection, null, null, null);
-//            assert cursor != null;
-//            int columnIndex = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.DATA);
-//            cursor.moveToFirst();
-//            return cursor.getString(columnIndex);
-//        } finally {
-//            if (cursor != null) {
-//                cursor.close();
-//            }
-//        }
-//    }
+    @SuppressWarnings("unused")
+    private static String imageRealPath(Context context, Uri uri) {
+        Cursor cursor = null;
+        try {
+            String[] projection = { MediaStore.Images.Media.DATA };
+            cursor = context.getContentResolver().query(uri, projection, null, null, null);
+            assert cursor != null;
+            int columnIndex = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.DATA);
+            cursor.moveToFirst();
+            return cursor.getString(columnIndex);
+        } finally {
+            if (cursor != null) {
+                cursor.close();
+            }
+        }
+    }
 
-//    public static boolean deleteSharedFile(Context context, Uri uri) {
-//        File file = new File(imageRealPath(context, uri));
-//        return file.exists() && file.delete();
-//    }
+    @SuppressWarnings("unused")
+    public static boolean deleteSharedFile(Context context, Uri uri) {
+        File file = new File(imageRealPath(context, uri));
+        return file.exists() && file.delete();
+    }
 }
